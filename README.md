@@ -1,5 +1,6 @@
 # android-testing-runtime-permissions
 An example of using Espresso and UiAutomator to write UI tests that interact with Android M permission dialogs.
+Check [Testing Runtime Permissions: Lessons Learned](http://blog.egorand.me/testing-runtime-permissions-lessons-learned/)
 
 License
 -------
