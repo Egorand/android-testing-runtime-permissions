@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Friends</string>
+    <string name="app_name">Friends</string>
     <string name="cont_desc_contact_icon">Contact icon</string>
     <string name="no_contacts">No contacts</string>
     <string name="permission_denied_rationale_short">We need access to your Contacts to connect you to your friends</string>
