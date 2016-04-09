@@ -23,10 +23,10 @@ import android.support.test.uiautomator.UiSelector;
 
 public final class UiAutomatorUtils {
 
-    private static final String TEXT_ALLOW = "ALLOW";
-    private static final String TEXT_DENY = "DENY";
-    private static final String TEXT_NEVER_ASK_AGAIN = "Never ask again";
-    private static final String TEXT_PERMISSIONS = "Permissions";
+    public static final String TEXT_ALLOW = "Allow";
+    public static final String TEXT_DENY = "Deny";
+    public static final String TEXT_NEVER_ASK_AGAIN = "Never ask again";
+    public static final String TEXT_PERMISSIONS = "Permissions";
 
     private UiAutomatorUtils() {
         // no instances

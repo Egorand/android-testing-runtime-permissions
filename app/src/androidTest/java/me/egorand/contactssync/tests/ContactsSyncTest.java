@@ -32,6 +32,7 @@ import org.junit.runners.MethodSorters;
 import me.egorand.contactssync.R;
 import me.egorand.contactssync.data.Contact;
 import me.egorand.contactssync.ui.activities.MainActivity;
+import me.egorand.contactssync.utils.UiAutomatorUtils;
 
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
@@ -65,8 +66,8 @@ public class ContactsSyncTest {
 
     @Test
     public void a_shouldDisplayPermissionRequestDialogAtStartup() throws Exception {
-        assertViewWithTextIsVisible(device, "ALLOW");
-        assertViewWithTextIsVisible(device, "DENY");
+        assertViewWithTextIsVisible(device, UiAutomatorUtils.TEXT_ALLOW);
+        assertViewWithTextIsVisible(device, UiAutomatorUtils.TEXT_DENY);
 
         // cleanup for the next test
         denyCurrentPermission(device);
